@@ -22,12 +22,12 @@ Recent Updates:
 	0.1	New Script!
 	0.2	Minor bug fix (didn't match baseball bat)
 	0.3	Minor bug fix (leftovers of indeterminate origin)
-    0.4 Updated by stufff to support KoLMafia using localhost instead of 127.0.0.1, added grant lines required by Greasemonkey versions 2.0 and higher, update item locations after KoL revamps made several old locations invalid
+	0.4 Updated by stufff to support KoLMafia using localhost instead of 127.0.0.1, added grant lines required by Greasemonkey versions 2.0 and higher, update item locations after KoL revamps made several old locations invalid
 	
 ********************************************************************************************/
 GM_setValue("scriptVer","0.4");
 GM_setValue("scriptName","LairItemSpoiler");
-GM_setValue("scriptURL","http://retrofrog.hardcoreoxygenation.com/kol/lair_items.user.js");
+GM_setValue("scriptURL","https://greasyfork.org/scripts/4888-lair-item-spoiler/code/Lair%20Item%20Spoiler.user.js");
 
 var imagebase = "http://images.kingdomofloathing.com/itemimages/";
 var imgLoading="data:image/gif,GIF89a%0A%00%0A%00%91%03%00%CC%CC%CC%FFff%FF%00%00%FF%FF%FF!%FF%0BNETSCAPE2.0%03%01%00%00%00!%F9%04%05%00%00%03%00%2C%00%00%00%00%0A%00%0A%00%00%02%17%9C'r%06%80%1A%02s'%AE%3Bqk%9A%E2%C3%81%14Gz%D9Q%00%00!%F9%04%05%00%00%03%00%2C%01%00%00%00%08%00%03%00%00%02%0A%9C%136%22%83%03%00S%10%14%00!%F9%04%05%00%00%03%00%2C%00%00%00%00%06%00%06%00%00%02%0C%9C%070%11%A8%7C%A2%11%22%D2X%00%00!%F9%04%05%00%00%03%00%2C%00%00%01%00%03%00%08%00%00%02%0A%1C%608%13%C1%BE%96%10c%16%00!%F9%04%05%00%00%03%00%2C%00%00%04%00%06%00%06%00%00%02%0A%04%86c%C9%1C%E1%A0%10l%16%00!%F9%04%05%00%00%03%00%2C%01%00%07%00%08%00%03%00%00%02%0A%04%86%23b%13%A1Dz%A9%00%00!%F9%04%05%00%00%03%00%2C%04%00%04%00%06%00%06%00%00%02%0C%9C'r%A8%BB%11%06%00%03Jz%0A%00!%F9%04%09%00%00%03%00%2C%07%00%01%00%03%00%08%00%00%02%0A%94f%A3%1A1%BD%00%18r%14%00%3B";
