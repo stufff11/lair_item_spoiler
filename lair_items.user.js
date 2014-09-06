@@ -12,7 +12,7 @@
 // @grant	   GM_post
 // @grant	   GM_setValue
 // @grant	   GM_xmlhttpRequest
-// @description    Version 0.4
+// @description    Version 0.4.1
 // 
 // ==/UserScript==
 
@@ -23,9 +23,10 @@ Recent Updates:
 	0.2	Minor bug fix (didn't match baseball bat)
 	0.3	Minor bug fix (leftovers of indeterminate origin)
 	0.4 	Updated by stufff to support KoLMafia using localhost instead of 127.0.0.1, added grant lines required by Greasemonkey versions 2.0 and higher, update item locations after KoL revamps made several old locations invalid
+	0.4.1 	Updated script location
 	
 ********************************************************************************************/
-GM_setValue("scriptVer","0.4");
+GM_setValue("scriptVer","0.4.1");
 GM_setValue("scriptName","LairItemSpoiler");
 GM_setValue("scriptURL","https://greasyfork.org/scripts/4888-lair-item-spoiler/code/Lair%20Item%20Spoiler.user.js");
 
