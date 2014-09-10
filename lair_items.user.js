@@ -2,7 +2,6 @@
 // 
 // ==UserScript==
 // @name           Lair Item Spoiler
-// @namespace      https://greasyfork.org/users/5083-stufff
 // @include        *kingdomofloathing.com/campground.php*
 // @include        *127.0.0.1:600*/campground.php*
 // @include        *kingdomofloathing.com/lair1.php*
@@ -16,17 +15,6 @@
 // 
 // ==/UserScript==
 
-
-/********************************** Recent Changes **********************************************
-Recent Updates:
-	0.1	New Script!
-	0.2	Minor bug fix (didn't match baseball bat)
-	0.3	Minor bug fix (leftovers of indeterminate origin)
-	0.4 	Updated by stufff to support KoLMafia using localhost instead of 127.0.0.1, added grant lines required by Greasemonkey versions 2.0 and higher, update item locations after KoL revamps made several old locations invalid
-	0.4.1 	Updated script location
-	
-********************************************************************************************/
-GM_setValue("scriptVer","0.4.2");
 GM_setValue("scriptName","LairItemSpoiler");
 GM_setValue("scriptURL","https://greasyfork.org/scripts/4888-lair-item-spoiler/code/Lair%20Item%20Spoiler.user.js");
 
