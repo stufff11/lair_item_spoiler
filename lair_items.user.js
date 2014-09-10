@@ -12,7 +12,7 @@
 // @grant	   GM_post
 // @grant	   GM_setValue
 // @grant	   GM_xmlhttpRequest
-// @description    Version 0.4.1
+// @description    This script for Kingdom of Loathing ( KoL ) shows needed tower items when using the telescope or 3 doors before the tower, checks to see if you have them, and provides links to the zones where you can get them.
 // 
 // ==/UserScript==
 
@@ -26,7 +26,7 @@ Recent Updates:
 	0.4.1 	Updated script location
 	
 ********************************************************************************************/
-GM_setValue("scriptVer","0.4.1");
+GM_setValue("scriptVer","0.4.2");
 GM_setValue("scriptName","LairItemSpoiler");
 GM_setValue("scriptURL","https://greasyfork.org/scripts/4888-lair-item-spoiler/code/Lair%20Item%20Spoiler.user.js");
 
@@ -103,9 +103,9 @@ temp = new Item();items.push(temp);temp.name="NG";temp.use="Giant Desktop Globe"
 temp = new Item();items.push(temp);temp.name="Plot hole";temp.use="best-selling novelist";temp.id=613;temp.img='hole.gif';temp.desc=228721882;temp.location='<a href=adventure.php?snarfblat=232>Castle Ground Floor</a> (possibility giant)';temp.regex=/best-selling novelist|see what looks like a writing desk/;
 temp = new Item();items.push(temp);temp.name="Baseball";temp.use="Beer Batter";temp.id=181;temp.img='baseball.gif';temp.desc=874161307;temp.location='<a href=adventure.php?snarfblat=31>Guano Junction</a> (baseball bat, clover w/ biscuits)';temp.regex=/Beer Batter|see the tip of a baseball bat/;
 temp = new Item();items.push(temp);temp.name="Razor-sharp can lid";temp.use="Fickle Finger of F8";temp.id=559;temp.img='canlid.gif';temp.desc=234555940;temp.location='<a href=adventure.php?snarfblat=113>Haunted Pantry</a> (cans)';temp.regex=/Fickle Finger of F8|see what seems to be a giant cuticle/;
-temp = new Item();items.push(temp);temp.name="Tropical orchid";temp.use="giant bee";temp.id=2492;temp.img='troporchid.gif';temp.desc=810106897;temp.location='<a href=adventure.php?snarfblat=113>The Shore, Inc. Travel Agency</a> (tropical island souvenir crate)';temp.regex=/giant bee|see a formidable stinger/;
-temp = new Item();items.push(temp);temp.name="Stick of dynamite";temp.use="Collapsed mineshaft golem";temp.id=2493;temp.img='dynamite.gif';temp.desc=333120731;temp.location='<a href=adventure.php?snarfblat=113>The Shore, Inc. Travel Agency</a> (dude ranch souvenir crate)';temp.regex=/Collapsed mineshaft golem|see a wooden beam/;
-temp = new Item();items.push(temp);temp.name="Barbed-wire fence";temp.use="Enranged Cow";temp.id=145;temp.img='fence.gif';temp.desc=858596394;temp.location='<a href=adventure.php?snarfblat=113>The Shore, Inc. Travel Agency</a> (ski resort souvenir crate)';temp.regex=/Enraged Cow|see a pair of horns/;
+temp = new Item();items.push(temp);temp.name="Tropical orchid";temp.use="giant bee";temp.id=2492;temp.img='troporchid.gif';temp.desc=810106897;temp.location='<a href=adventure.php?snarfblat=355>The Shore, Inc. Travel Agency</a> (tropical island souvenir crate)';temp.regex=/giant bee|see a formidable stinger/;
+temp = new Item();items.push(temp);temp.name="Stick of dynamite";temp.use="Collapsed mineshaft golem";temp.id=2493;temp.img='dynamite.gif';temp.desc=333120731;temp.location='<a href=adventure.php?snarfblat=355>The Shore, Inc. Travel Agency</a> (dude ranch souvenir crate)';temp.regex=/Collapsed mineshaft golem|see a wooden beam/;
+temp = new Item();items.push(temp);temp.name="Barbed-wire fence";temp.use="Enranged Cow";temp.id=145;temp.img='fence.gif';temp.desc=858596394;temp.location='<a href=adventure.php?snarfblat=355>The Shore, Inc. Travel Agency</a> (ski resort souvenir crate)';temp.regex=/Enraged Cow|see a pair of horns/;
 
 if (document.body) {
 	var parseType = 'p';
